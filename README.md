@@ -10,25 +10,31 @@ Click [here](https://www.arcanewonders.com/wp-content/uploads/2021/05/S13_Rules_
 
 ### Make
 
-`make all`
+```bash
+make all
+```
 
 ### No make
 
-`./cmd.sh`
+```bash
+./cmd.sh
+```
 
 ## Playing the game
 
 ### Hosting a game
 
-`make server`
-
-`./server <port>`
+```bash
+make server
+./server <port>
+```
 
 ### Joining a game
 
-`make sh13`
-
-`./sh13 <server ip> <server port> <client ip> <client port> <player name>`
+```bash
+make sh13`
+./sh13 <server ip> <server port> <client ip> <client port> <player name>
+```
 
 Then press connect on the interface. If the game crashes, the connection has failed due to wrong parameters (or the server is down).
 
