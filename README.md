@@ -32,7 +32,7 @@ make server
 ### Joining a game
 
 ```bash
-make sh13`
+make sh13
 ./sh13 <server ip> <server port> <client ip> <client port> <player name>
 ```
 
