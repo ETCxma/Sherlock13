@@ -9,6 +9,8 @@
 #include <netdb.h>
 #include <arpa/inet.h>
 
+#include <time.h>
+
 struct _client
 {
 	char ipAddress[40];
@@ -226,6 +228,8 @@ void annonceJoueurSuivant(){
 
 int main(int argc, char *argv[])
 {
+	srand(time(0));
+
 	int sockfd, newsockfd, portno;
 	socklen_t clilen;
 	char buffer[256];
